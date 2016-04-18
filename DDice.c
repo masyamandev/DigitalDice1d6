@@ -2,8 +2,6 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 
-#define F_CPU 4800000UL  // 4 MHz
-
 #define DDR_MASK 0b00000000
 #define PORT_MASK 0b00000001
 
